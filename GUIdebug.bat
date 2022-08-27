@@ -1,0 +1,6 @@
+set HOME_ROOT=%~dp0
+set IMG_ROOT=%HOME_ROOT%image\
+set BOCHS_SCRIPT=%IMG_ROOT%GUIdebug.bxrc
+
+cd C:\Program Files\Bochs-2.6.5
+bochsdbg -q -f %BOCHS_SCRIPT%
